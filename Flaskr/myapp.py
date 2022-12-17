@@ -9,3 +9,7 @@ def hello_world():
 @app.route("/home")
 def home():
     return "<h1> home page </h1>"
+
+@app.route("/Subscribe")
+def subscribe():
+    return "<h1> Subscribed </h1>"
